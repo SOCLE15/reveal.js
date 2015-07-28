@@ -1173,3 +1173,55 @@ body {
 
 .zoomed .reveal .roll span:after {
   visibility: hidden; }
+
+/*********************************************
+ * RAJOUT PERSO
+ *********************************************/
+
+.zouz {
+    bottom: 0px;
+    width: 100%;
+    height: 100%;
+    overflow-y: auto  !important;
+    overflow-x: hidden !important;
+    font-size: 0.40em !important;
+}
+.container {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: auto;
+}
+.ui-overlay {
+          position: absolute;
+          top: 0px;
+          left: 0px;
+          opacity: 0.7;
+          background-color: black;
+          width: 100%;
+          height: 100%;
+          z-index: 50;
+      }
+.image-recipe {
+  max-width: 200px !important;
+  max-height: 200px !important;
+}
+.thumbnail {
+  max-width: 300px !important;
+}
+.code-preview{
+  max-width: 500px !important;
+}
+.text-popup-style{
+    position: relative;
+  background: #222 none repeat scroll 0% 0%;
+  color: #FFF;
+  padding: 20px;
+  width: auto;
+  max-width: 500px;
+  margin: 20px auto;
+  text-align: justify;
+  text-justify: inter-word;
+}
