@@ -1226,3 +1226,6 @@ body {
   text-align: justify;
   text-justify: inter-word;
 }
+.next-red{
+  color: red !important;
+}
